@@ -11,10 +11,10 @@ export const Projects = () => {
   return (
     
     <div className="container">
-      <div className='d-flex justify-content-center align-items-center text-light mb-5' style={{fontSize:45}}><i class="fa-solid fa-code p-3"></i>Projects</div>
+      <div className='d-flex justify-content-center align-items-center text-light mb-5' style={{fontSize:45}}><i className="fa-solid fa-code p-3"></i>Projects</div>
       <div className="row align-items-center mx-5">
 
-      <div className="col-6">
+      <div className="col-lg-6">
       <ProjectItem 
       title="NewsHive"
       image={newsProject}
@@ -24,7 +24,7 @@ export const Projects = () => {
       />
       </div>
 
-      <div className="col-6">
+      <div className="col-lg-6">
       <ProjectItem
       title="NoteSpace"
       image={todoProject}
@@ -38,7 +38,7 @@ export const Projects = () => {
       </div>
 
       
-      <div className="col-6">
+      <div className="col-lg-6">
       <ProjectItem
       title="WeatherWise"
       image={weatherProject}
@@ -51,7 +51,7 @@ export const Projects = () => {
       </div>
       
       
-      <div className="col-6">
+      <div className="col-lg-6">
       <ProjectItem
       title="To-Do List"
       image={noteSpaceProject}
@@ -64,7 +64,7 @@ export const Projects = () => {
       />
       </div>
 
-      <div className="col-6">
+      <div className="col-lg-6">
       <ProjectItem
       title="TextCure"
       image={textCureProject}

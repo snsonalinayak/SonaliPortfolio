@@ -6,7 +6,7 @@ const Home = () => {
   
   return (
     <div >
-      <div className='container container-small'  >
+      <div className='container'  >
 
         <div className="row d-flex justify-content-center align-items-center">
 
