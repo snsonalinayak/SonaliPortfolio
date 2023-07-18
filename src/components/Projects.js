@@ -5,6 +5,7 @@ import weatherProject from '../images/weatherProject.json';
 import todoProject from '../images/todoList.json';
 import textCureProject from '../images/textCureProject.json';
 import noteSpaceProject from '../images/noteSpaceProject.json';
+import EcomProjectProject from '../images/EcomProject.json';
 
 
 export const Projects = () => {
@@ -21,6 +22,15 @@ export const Projects = () => {
       desc="This project is powered by ReactJS and Bootstrap, utilizes JavaScript to fetch data from a news API, delivering an immersive and up-to-date news browsing experience."
       githubLink="https://github.com/snsonalinayak/NewsHive"
       skills="ReactJS | API | Javascript | Bootstrap"
+      />
+      </div>
+      <div className="col-lg-6">
+      <ProjectItem 
+      title="Bliss Box"
+      image={EcomProjectProject}
+      desc="This is an E-commerce App, built with React Native and powered by Redux Toolkit for state management, revolutionizes the shopping experience for our handcrafted resin gift accessories."
+      githubLink="https://github.com/snsonalinayak/BlissBoxCo"
+      skills="React Native | Redux Toolkit | Javascript"
       />
       </div>
 
