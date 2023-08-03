@@ -7,7 +7,7 @@ export const ProjectItem = (props) => {
     // const {title, desc,link,image}=props
     
     return (
-        <div className='container'>
+        <div className='container '>
 
             <div className="card mb-3" style={{maxWidth: "540px", backgroundColor:"rgba(2,1,9,0.4)", color:"white"}}>
                 <div className="row g-0">
