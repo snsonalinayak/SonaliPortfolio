@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import gfg from '../images/gfg.png'
+
 
 const Navbar = () => {
   
@@ -33,6 +35,8 @@ const Navbar = () => {
       <Link className='text-light' to="https://www.linkedin.com/in/sn-sonali-nayak/" target='_blank'><i className="fa-brands fa-linkedin fa-xl mx-2"></i></Link>
       <Link className='text-light' to="https://github.com/snsonalinayak" target='_blank'><i className="fa-brands fa-github fa-xl mx-2"></i></Link>
       <Link className='text-light' to="https://www.hackerrank.com/snsonalinayak?hr_r=1" target='_blank'><i className="fa-brands fa-hackerrank fa-xl mx-2"></i></Link>
+      {/* <Link className='text-light' to="https://auth.geeksforgeeks.org/user/snsonalinayak" target='_blank'>
+      <img src={gfg} style={{height:"16%",width:"15%"}} /></Link> */}
       </span>
     </div>
   </div>

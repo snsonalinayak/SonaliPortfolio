@@ -1,5 +1,5 @@
 import React from 'react'
-import sonaliResume from '../images/Sonali Resume.png'
+import sonaliResume from '../images/Sonali Nayak Resume New.png'
 
 const Resume = () => {
   return (
